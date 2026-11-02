@@ -1,11 +1,34 @@
-# Sample Snack app
+# Personal Budget Manager
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A mobile budgeting prototype built with React Native, Expo and JavaScript to track income, expenses and spending categories.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Features
+- Add and delete income and expense transactions.
+- Assign categories such as Food, Transport, Housing, Entertainment and Salary.
+- Calculate the current balance and totals by category.
+- View transaction descriptions and dates.
+- Navigate between the home and transaction screens.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## Technologies
+- JavaScript
+- React Native
+- Expo
+- React Native Paper
+- React Navigation
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Technical Highlights
+- Used React state to manage transactions.
+- Implemented calculations for balances and category summaries.
+- Built transaction forms, category selection and screen navigation.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Current Limitations
+This is a learning prototype. Transactions are stored in memory and are cleared when the app restarts. Amounts currently display in US dollars.
+
+## Future Improvements
+- Save transactions between sessions.
+- Add South African rand support.
+- Introduce monthly budgets and spending charts.
+- Improve input validation.
+
+## Author
+Olwethu Cele
