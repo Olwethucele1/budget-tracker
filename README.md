@@ -2,6 +2,12 @@
 
 A mobile budgeting prototype built with React Native, Expo and JavaScript to track income, expenses and spending categories.
 
+## Live Demo
+
+[Try the Personal Budget Manager on Expo Snack](https://snack.expo.dev/@olwethuloncele/budget-tracker)
+
+Select Web in the preview panel to try the app.
+
 ## Features
 - Add and delete income and expense transactions.
 - Assign categories such as Food, Transport, Housing, Entertainment and Salary.
